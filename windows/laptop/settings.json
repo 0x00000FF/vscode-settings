@@ -1,0 +1,48 @@
+{
+    "php.executablePath": "C:/Program Files/php-7.4/php.exe",
+    "editor.fontFamily": "'Source Code Variable', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "500",
+    "phpserver.phpPath": "C:\\Program Files\\php-7.4\\php.exe",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "workbench.colorCustomizations": {
+        "editor.background": "#600000",
+        "tab.inactiveBackground": "#990000",
+        "tab.inactiveForeground": "#000000",
+        "editorGroupHeader.tabsBackground": "#990000",
+        "activityBar.background": "#990000",
+        "sideBar.background": "#600000",
+        "titleBar.activeBackground": "#cc0000",
+        "statusBar.background": "#ff0000",
+        "menu.background": "#cc0000",
+        "menu.selectionBackground": "#600000",
+        "dropdown.background": "#600000",
+        "input.background": "#600000",
+        "input.foreground": "#ffffff",
+        "button.background": "#cc0000",
+        "textLink.foreground": "#ff0000",
+        "textLink.activeForeground": "#ff0000"
+    },
+
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [ "xelatex" ]
+        }
+    ],
+    "latex-workshop.latex.tools":[
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab"
+}
