@@ -1,8 +1,9 @@
-{
     "php.executablePath": "C:/Program Files/php-7.4/php.exe",
+    "php.validate.executablePath": "C:/Program Files/php-7.4/php.exe",
+    "phpserver.browser": "",
     "editor.fontFamily": "'Source Code Variable', Consolas, 'Courier New', monospace",
     "editor.fontWeight": "500",
-    "phpserver.phpPath": "C:\\Program Files\\php-7.4\\php.exe",
+    "phpserver.phpPath": "C:/Program Files/php-7.4/php.exe",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -44,5 +45,6 @@
             ]
         }
     ],
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "typescript.updateImportsOnFileMove.enabled": "always",
 }
